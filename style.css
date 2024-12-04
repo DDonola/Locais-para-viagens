@@ -10,9 +10,90 @@
 
 *{
     margin: 0;
-    padding:0
+    padding: 0;
 }
 
 body{
     font-family: var(--main-font);
+}
+
+#page {
+    box-sizing: border-box;
+    width: 1120px;
+    margin: 5rem auto 5.5rem;
+}
+
+#italic{
+    font-style: italic;
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+}
+
+#couples{
+    color: var(--text-color-tertiary);
+}
+
+#families{
+    color: var(--text-color-quaternary);
+}
+
+#budget{
+    color: var(--text-color-quinary);
+}
+
+.for{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+img{
+    border-radius: 1,75rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: var(--line-color);
+}
+
+.red{
+    color: var(--text-color-primary);
+    font-weight: bold;
+    margin-top: 4rem;
+    font-size: 1rem;
+}
+
+.history{
+    color: var(--text-color-secundary);
+}
+
+section + section{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+h1{
+    font-size: 2.25rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.75rem;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+footer img {
+    vertical-align: middle;
 }
